@@ -1,0 +1,134 @@
+.news-section {
+  position: absolute;
+  width: 85vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  right: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+.expand-section {
+  width: 92vw;
+  transition: var(--transition);
+}
+.shrink-section {
+  width: 85vw;
+  transition: var(--transition);
+}
+.news-section .game_news {
+  background: #1b2141;
+  margin-bottom: 4rem;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.news-section img {
+  width: 80%;
+  border-radius: 8px;
+}
+.news-section .content_info a {
+  color: #fff;
+  font-weight: 700;
+}
+.news-section h2,
+p:hover {
+  cursor: default;
+}
+
+.news-section p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: justify;
+  color: #fff;
+}
+
+.news-section .news-details {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #1aeeef;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #1aeeef;
+  color: #222;
+  letter-spacing: 1px;
+}
+.news-section .news-details:hover {
+  background: transparent;
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* loader */
+/* .center-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader-circle-11 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  transform-style: preserve-3d;
+  perspective: 400px;
+}
+.loader-circle-11 .arc {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-bottom: 5px solid #f00;
+}
+.loader-circle-11 .arc:nth-child(1) {
+  animation: rotate1 1.15s linear infinite;
+}
+.loader-circle-11 .arc:nth-child(2) {
+  animation: rotate2 1.15s linear infinite;
+}
+.loader-circle-11 .arc:nth-child(3) {
+  animation: rotate3 1.15s linear infinite;
+}
+.loading .arc:nth-child(1) {
+  animation-delay: -0.8s;
+}
+.loader-circle-11 .arc:nth-child(2) {
+  animation-delay: -0.4s;
+}
+.loader-circle-11 .arc:nth-child(3) {
+  animation-delay: 0s;
+}
+@keyframes rotate1 {
+  from {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+  }
+  to {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(1turn);
+  }
+}
+@keyframes rotate2 {
+  from {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+  }
+  to {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(1turn);
+  }
+}
+@keyframes rotate3 {
+  from {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+  }
+  to {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(1turn);
+  }
+} */
+.remove {
+  display: none;
+}

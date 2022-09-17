@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./favourites.css" />
+    <script
+      src="https://kit.fontawesome.com/217c26f1f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">GamingAddict</a>
+
+      <div class="action">
+        <div class="search-box">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <input type="text" placeholder="Search Games" />
+        </div>
+      </div>
+      <button class="toggle-sidebar"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    <aside>
+      <ul>
+        <li class="btn-container">
+          <button id="aside-btn"><i class="fa-solid fa-angle-left"></i></button>
+        </li>
+        <li>
+          <a class="active" href="./index.html#home"
+            ><i class="fa-solid fa-house"></i
+            ><span class="aside-span">Home</span></a
+          >
+        </li>
+        <li class="aside-non-links">ACCOUNT</li>
+        <li>
+          <a href="./profile.html"
+            ><i class="fa-solid fa-user"></i
+            ><span class="aside-span">profile</span></a
+          >
+        </li>
+        <li>
+          <a href="./favourites.html"
+            ><i class="fa-solid fa-star"></i
+            ><span class="aside-span">Favourites</span></a
+          >
+        </li>
+
+        <li>
+          <a href="./freeToPlay.html"
+            ><i class="fa-solid fa-gamepad"></i
+            ><span class="aside-span">Free to play</span></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-user-group"></i
+            ><span class="aside-span">Friends</span></a
+          >
+        </li>
+
+        <li class="aside-non-links">MAIN</li>
+
+        <li>
+          <a href="./news.html"
+            ><i class="fa-solid fa-square-rss"></i
+            ><span class="aside-span">News</span></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-users-line"></i
+            ><span class="aside-span">Community</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-video"></i
+            ><span class="aside-span">Streams</span></a
+          >
+        </li>
+
+        <li class="aside-non-links">SUPPORT</li>
+
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-circle-exclamation"></i
+            ><span class="aside-span">Report</span></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fa-solid fa-circle-question"></i
+            ><span class="aside-span">Help</span></a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">
+      <div class="sidebar-top">
+        <h2 id="title">Gaming <span id="addict">addict</span></h2>
+        <button id="close-button"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <br />
+      <br />
+      <div class="sidebar-center">
+        <ul class="list">
+          <li>
+            <a class="active" href="./index.html#home"
+              ><i class="fa-solid fa-house"></i
+              ><span class="aside-span">Home</span></a
+            >
+          </li>
+          <li class="aside-non-links">ACCOUNT</li>
+          <li>
+            <a href="./profile.html"
+              ><i class="fa-solid fa-user"></i
+              ><span class="aside-span">profile</span></a
+            >
+          </li>
+          <li>
+            <a href="./favourites.html"
+              ><i class="fa-solid fa-star"></i
+              ><span class="aside-span">Favourites</span></a
+            >
+          </li>
+
+          <li>
+            <a href="./freeToPlay.html"
+              ><i class="fa-solid fa-gamepad"></i
+              ><span class="aside-span">Free to play</span></a
+            >
+          </li>
+
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-user-group"></i
+              ><span class="aside-span">Friends</span></a
+            >
+          </li>
+
+          <li class="aside-non-links">MAIN</li>
+
+          <li>
+            <a href="./news.html"
+              ><i class="fa-solid fa-square-rss"></i
+              ><span class="aside-span">News</span></a
+            >
+          </li>
+
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-users-line"></i
+              ><span class="aside-span">Community</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-video"></i
+              ><span class="aside-span">Streams</span></a
+            >
+          </li>
+
+          <li class="aside-non-links">SUPPORT</li>
+
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-circle-exclamation"></i
+              ><span class="aside-span">Report</span></a
+            >
+          </li>
+
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-circle-question"></i
+              ><span class="aside-span">Help</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="sidebar-bottom">
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-sketch" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+
+    <section class="fav-section">
+      <div class="login-content close-login">
+        <div class="container">
+          <div class="close-login-btn">
+            <button id="close-login"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <form class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+              <input
+                type="text"
+                id="login-userName"
+                class="form__input"
+                autofocus
+                placeholder="Username or email"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+              <input
+                type="password"
+                id="login-password"
+                class="form__input"
+                autofocus
+                placeholder="Password"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+              <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p class="form__text">
+              <a class="form__link" href="./" id="linkCreateAccount"
+                >Don't have an account? Create account</a
+              >
+            </p>
+          </form>
+          <form class="form form--hidden" id="createAccount">
+            <h1 class="form__title">Create Account</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+              <input
+                type="text"
+                id="signupUsername"
+                class="form__input"
+                autofocus
+                placeholder="Username"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+              <input
+                type="text"
+                id="signupEmail"
+                class="form__input"
+                autofocus
+                placeholder="Email Address"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+              <input
+                type="password"
+                id="signupPassword"
+                class="form__input"
+                autofocus
+                placeholder="Password"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+              <input
+                type="password"
+                id="confirmPassword"
+                class="form__input"
+                autofocus
+                placeholder="Confirm password"
+              />
+              <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+              <a class="form__link" href="./" id="linkLogin"
+                >Already have an account? Sign in</a
+              >
+            </p>
+          </form>
+        </div>
+        <div class="login-bg"></div>
+      </div>
+      <section class="games-section">
+        <h2>Favourite Games</h2>
+        <div class="line"></div>
+
+        <div id="fav-games-container" class="games-container">
+          <div>
+            <h2>Login to see your favourite games</h2>
+            <button class="login-btn">Login</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./app.js"></script>
+    <script src="./games.js"></script>
+    <script src="./favourites.js"></script>
+  </body>
+</html>

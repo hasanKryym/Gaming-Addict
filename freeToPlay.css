@@ -1,0 +1,108 @@
+.free-to-play_container {
+  position: absolute;
+  width: 85vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  right: 1rem;
+  justify-content: center;
+}
+
+.expand-section {
+  width: 92vw;
+  transition: var(--transition);
+}
+.shrink-section {
+  width: 85vw;
+  transition: var(--transition);
+}
+
+.free-to-play_container .game {
+  width: 240px;
+  margin: 2rem 0.6rem;
+  border-radius: 10px;
+  background: #1b2141;
+  overflow: hidden;
+}
+.free-to-play_container .game:hover {
+  transition: 0.2s;
+  transform: scale(1.01);
+}
+.free-to-play_container .game img {
+  width: 100%;
+  width: 240px;
+  /* height: 250px; */
+  object-fit: cover;
+}
+.free-to-play_container .game .content {
+  padding: 10px;
+}
+.free-to-play_container .game .content h4 {
+  color: #fff;
+  margin: 10px 0;
+}
+.free-to-play_container .game .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #35407e;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.free-to-play_container .game .progress-line span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: #1aeeef;
+  box-shadow: 0 0 10px #1aeeef;
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.free-to-play_container .game .info {
+  border-top: 2px solid #35407e;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free-to-play_container .game .info p {
+  font-size: 1em;
+  color: #fff;
+}
+.free-to-play_container .game .info p span {
+  color: #1aeeef;
+}
+
+.game a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #1aeeef;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #1aeeef;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.game a:hover {
+  background: transparent;
+  color: #fff;
+  transition: 0.2s;
+}
+.remove {
+  display: none;
+}

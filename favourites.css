@@ -1,0 +1,65 @@
+.fav-section {
+  position: absolute;
+  right: 0;
+  width: 85vw;
+  top: 2rem;
+  margin-right: 4rem;
+}
+
+.expand-section {
+  width: 92vw;
+  transition: var(--transition);
+}
+.shrink-section {
+  width: 85vw;
+  transition: var(--transition);
+}
+
+.fav-section .game-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #050e2d;
+  background: #1aeeef;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.fav-section .login-btn {
+  width: 100%;
+
+  font-size: 24px;
+  color: #050e2d;
+  background: #1aeeef;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.fav-section .remove-fav_game {
+  background: red;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 1450px) {
+  .fav-section {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .fav-section {
+    width: 80vw;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .fav-section {
+    width: 100vw;
+    margin-right: 0;
+  }
+}
